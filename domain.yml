@@ -25,7 +25,9 @@ responses:
 
   utter_demander_symptomes:
     - text: "Pouvez-vous me décrire vos symptômes en détail ?"
-
+  utter_autres_questions:
+    - text: "Avez vous d'autres questions"
 actions:
   - action_donner_diagnostic
+  - action_chat_avec_gpt
 
