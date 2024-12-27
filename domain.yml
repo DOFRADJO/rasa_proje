@@ -1,1 +1,30 @@
+version: "3.1"
+intents:
+  - salutation
+  - au_revoir
+  - affirmatif
+  - negatif
+  - donner_symptomes
+  - demander_diagnostic
+
+entities:
+  - symptomes
+
+slots:
+  symptomes:
+    type: text
+    influence_conversation: true
+
+responses:
+  utter_salutation:
+    - text: "Bonjour ! Je suis là pour vous aider. Quels sont vos symptômes ?"
+
+  utter_au_revoir:
+    - text: "Merci et prenez soin de vous. À bientôt !"
+
+  utter_demander_symptomes:
+    - text: "Pouvez-vous me décrire vos symptômes en détail ?"
+
+actions:
+  - action_donner_diagnostic
 
