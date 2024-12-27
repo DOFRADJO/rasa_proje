@@ -8,6 +8,10 @@ stories:
     - action: utter_demander_symptomes
     - intent: donner_symptomes
     - action: action_donner_diagnostic
+- story: User asks something not in dataset
+  steps:
+    - intent: autres
+    - action: action_chat_avec_gpt
 
 - story: Utilisateur refuse de donner plus d'informations
   steps:
