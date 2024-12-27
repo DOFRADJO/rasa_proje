@@ -6,6 +6,7 @@ intents:
   - negatif
   - donner_symptomes
   - demander_diagnostic
+  - autres
 
 entities:
   - symptomes
