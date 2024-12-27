@@ -14,3 +14,8 @@ rules:
   steps:
     - intent: donner_symptomes
     - action: action_donner_diagnostic
+    
+- rule: Answer user question with GPT
+  steps:
+    - intent: autres
+    - action: action_chat_avec_gpt
