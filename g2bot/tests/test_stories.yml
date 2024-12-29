@@ -1,0 +1,18 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+version: "3.1"
+
+test_stories:
+  - story: Test greeting  # Test pour vérifier le salut.
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Test diagnostic  # Test pour vérifier le diagnostic.
+    steps:
+      - intent: faire_diagnostic
+        entities:
+          - symptoms: "fatigue, pâleur"
+      - action: action_predict_disease
+
