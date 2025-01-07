@@ -1,0 +1,44 @@
+Maladie,Symptômes,Traitement,Prévention
+Anémie,"Fatigue, pâleur, essoufflement","Suppléments de fer (200 mg/jour, Ferograd ou Tardyferon)",Alimentation riche en fer
+Cataracte,Vision trouble,"Chirurgie oculaire, lunettes",Port de lunettes de soleil
+Conjonctivite,"Rougeur, démangeaison des yeux","Collyres antibiotiques (Tobramycine 0.3%, 1 goutte 4x/jour)",Hygiène oculaire
+Constipation,"Douleurs abdominales, ballonnements","Laxatifs (Lactulose 15 ml/jour), hydratation",Régime riche en fibres
+Diabète,"Soif excessive, fatigue","Insuline (1-2 unités/kg/jour, Lantus)",Surveillance glycémique
+Démangeaisons cutanées,"Rougeur, irritation",Crèmes apaisantes (Hydrocortisone 1%),Éviter les allergènes
+Ebola,"Fièvre élevée, saignements","Soins intensifs, réhydratation orale (solution orale spécifique)",Hygiène stricte
+Eczéma,"Plaques rouges, démangeaisons",Crèmes corticoïdes (Betamethasone 0.05%),Hydratation régulière
+Éjaculation précoce,Éjaculation rapide,Thérapie comportementale,Non spécifié
+Gale,"Démangeaisons intenses, lésions cutanées","Perméthrine topique (5%, application unique)",Hygiène corporelle stricte
+Grippe,"Fièvre, maux de gorge",Antiviraux (Oseltamivir 75 mg/jour),Vaccination annuelle
+Kyste au sein,Masse palpable dans le sein,Chirurgie ou suivi médical selon gravité,Consultations régulières
+Mauvaise haleine,Mauvaise odeur buccale,"Hygiène bucco-dentaire, bains de bouche antiseptiques",Hygiène buccale
+Fièvre jaune,"Fièvre, jaunisse",Vaccination préventive (Stamaril),Vaccination avant voyage
+Fièvre typhoïde,"Fièvre, douleurs abdominales",Antibiotiques (Ciprofloxacine 500 mg/jour pendant 7 jours),Éviter eau contaminée
+Flatulences,"Gaz, ballonnements","Régime alimentaire adapté, charbon actif",Régime adapté
+MST/IST,"Écoulements, douleurs","Antibiotiques spécifiques (Azithromycine 1g, dose unique)",Dépistages réguliers
+Maux de tête,Douleurs à la tête,Analgésiques (Paracétamol 1g/6h),Gestion du stress
+Paludisme,"Fièvre, sueurs nocturnes","Antipaludiques (Artemether 80 mg/jour, Coartem)",Moustiquaires imprégnées
+Panaris,Inflammation autour des ongles,Antiseptiques locaux (Bétadine topique),Hygiène des mains
+Dengue,"Fièvre, douleurs musculaires",Réhydratation orale (solution ORS),Protection contre piqûres
+Migraine,Maux de tête récurrents,Antidouleurs (Ibuprofène 200 mg/8h),Gestion du stress
+Mycose de l'ongle,Épaississement des ongles,Antifongiques (Terbinafine 250 mg/jour pendant 6 semaines),Hygiène des ongles
+Mycose de la peau,"Plaques rouges, démangeaisons","Antifongiques topiques (Clotrimazole 1%, application 2x/jour)",Hygiène quotidienne
+Mycose génitale,Démangeaisons vaginales,"Crèmes antifongiques vaginales (Econazole 150 mg, ovule)",Hygiène intime
+Myopathie,Faiblesse musculaire,Physiothérapie,Exercices physiques
+Myopie,Vision floue,Correction visuelle,Correction vision
+Méningite,"Fièvre, raideur de la nuque",Antibiotiques (Ceftriaxone 1g/jour IV),Vaccination
+Ménopause,Bouffées de chaleur,Thérapie hormonale substitutive (Estradiol 1 mg/jour),Surveillance gynécologique
+Kyste de l'ovaire,Douleurs abdominales,Chirurgie selon la nature du kyste,Vaccination
+Poliomyélite,Paralysie,Vaccination et rééducation en cas de paralysie,Hygiène stricte
+Prostatite,Douleurs urinaires,Antibiotiques (Ciprofloxacine 500 mg/12h),Hygiène stricte
+Rage,Salivation excessive,Sérum antirabique et vaccination (5 doses IM),Hygiène
+Rougeole,"Fièvre, éruptions cutanées",Vaccination préventive,Vaccination
+Sida,Amaigrissement,"Antirétroviraux (Truvada, 1 comprimé/jour)",Surveillance médicale
+Tuberculose,Toux persistante,Antibiotiques (Isoniazide 300 mg/jour),Vaccination
+Tumeur au cerveau,"Toux, douleurs cérébrales",Chirurgie selon le type de tumeur,Hygiène
+Tétanos,Spasmes musculaires,Vaccination préventive,Hydratation cutanée
+Vaginite,Douleurs vaginales,"Crèmes antifongiques (Clotrimazole 1%, application locale)",Surveillance médicale
+Varicelle,"Fièvre, éruptions",Antiviraux spécifiques (Acyclovir 800 mg/5x/jour),Surveillance médicale
+Variole,Pustules,Non spécifié,Non spécifié
+Dartres,Plaques sèches,Non spécifié,Non spécifié
+Non spécifié,Non spécifié,Non spécifié,Non spécifié

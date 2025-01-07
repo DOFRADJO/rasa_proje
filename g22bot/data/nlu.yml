@@ -1,0 +1,107 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Bonjour
+    - Salut
+    - Coucou
+    - Bonsoir
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Au revoir
+    - À plus tard
+    - Merci, c'est tout
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: faire_diagnostic
+  examples: |
+    - J'ai de la fatigue et de la pâleur
+    - J'ai des troubles de la vision trouble
+    - J'ai une rougeur et des démangeaisons des yeux
+    - J'ai des douleurs abdominales et des ballonnements
+    - J'ai une soif excessive et de la fatigue
+    - J'ai une rougeur et une irritation cutanée
+    - J'ai une fièvre élevée et des saignements
+    - J'ai des plaques rouges et des démangeaisons
+    - J'ai des démangeaisons intenses et des lésions cutanées
+    - J'ai une fièvre et des maux de gorge
+    - J'ai une masse palpable dans le sein
+    - J'ai une mauvaise odeur buccale
+    - J'ai une fièvre et une jaunisse
+    - J'ai une fièvre et des douleurs abdominales
+    - J'ai des gaz et des ballonnements
+    - J'ai des écoulements et des douleurs
+    - J'ai des douleurs à la tête
+    - J'ai une fièvre et des sueurs nocturnes
+    - J'ai une inflammation autour des ongles
+    - J'ai une fièvre et des douleurs musculaires
+    - J'ai des maux de tête récurrents
+    - J'ai un épaississement des ongles
+    - J'ai des plaques rouges et des démangeaisons
+    - J'ai des démangeaisons vaginales
+    - J'ai une faiblesse musculaire
+    - J'ai une vision floue
+    - J'ai une fièvre et une raideur de la nuque
+    - J'ai des bouffées de chaleur
+    - J'ai des douleurs abdominales
+    - J'ai une paralysie
+    - J'ai des douleurs urinaires
+    - J'ai une salivation excessive
+    - J'ai une fièvre et des éruptions cutanées
+    - J'ai un amaigrissement
+    - J'ai une toux persistante
+    - J'ai une toux et des douleurs cérébrales
+    - J'ai des spasmes musculaires
+    - J'ai des douleurs vaginales
+    - J'ai une fièvre et des éruptions
+    - J'ai des pustules
+    - J'ai des plaques sèches
+
+- intent: autre
+  examples: |
+    - Pouvez-vous m'aider avec autre chose ?
+    - Je veux parler d'un autre sujet.
+    - Y a-t-il des options pour plus d'informations ?

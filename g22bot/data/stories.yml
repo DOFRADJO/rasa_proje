@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+  - story: Greet user  # Histoire pour saluer l'utilisateur.
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Farewell user  # Histoire pour dire au revoir à l'utilisateur.
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Make a diagnosis  # Histoire pour faire un diagnostic.
+    steps:
+      - intent: faire_diagnostic
+      - action: action_predict_disease
+
+  - story: Handle other queries  # Histoire pour gérer d'autres demandes.
+    steps:
+      - intent: autre
+      - action: utter_more_help

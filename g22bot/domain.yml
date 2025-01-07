@@ -1,0 +1,41 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - faire_diagnostic
+  - autre
+
+entities:
+  - symptoms  # Entité pour capturer les symptômes saisis par l'utilisateur.
+
+slots:
+  symptoms:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: symptom
+      - type: from_text
+        intent: faire_diagnostic  # Fill the slot using a certain intent (optional)
+
+responses:
+  utter_greet:
+    - text: "Bonjour ! Comment puis-je vous aider ?"
+
+  utter_goodbye:
+    - text: "Au revoir ! Prenez soin de vous."
+
+  utter_more_help:
+    - text: "Pouvez-vous me donner plus de détails ?"
+  
+  #utter_faire_diagnostic:
+  #  - text: >
+  #      D'accord, veuillez me donner plus de détails sur vos symptômes. 
+  #      Par exemple, dites-moi si vous avez de la fièvre, des douleurs, ou d'autres inconforts.
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_more_help
+  - action_predict_disease  # Définition de l'action pour faire un diagnostic.

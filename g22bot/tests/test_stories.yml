@@ -1,0 +1,35 @@
+version: "3.1"
+
+test_stories:
+
+# Test de salutation
+  - story: Test Greet
+    steps:
+      - user: |
+          hello
+        intent: greet
+      - action: utter_greet
+
+# Test de dire au revoir
+  - story: Test Goodbye
+    steps:
+      - user: |
+          bye
+        intent: goodbye
+      - action: utter_goodbye
+
+# Test de diagnostic médical
+  - story: Test Medical Diagnosis
+    steps:
+      - user: |
+          J'ai des douleurs abdominales
+        intent: faire_diagnostic
+      - action: utter_faire_diagnostic
+
+# Test pour d'autres requêtes
+  - story: Test Other Queries
+    steps:
+      - user: |
+          Pouvez-vous m'aider avec autre chose ?
+        intent: autre
+      - action: utter_more_help
